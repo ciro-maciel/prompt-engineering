@@ -1,0 +1,11 @@
+category: meta
+name: Confidence Follow-up
+tags: [clarification, confidence_gate, meta_prompt]
+rationale: |
+  This directive governs the assistant’s workflow—requiring follow-up questions until 95 % certainty—so it is about managing prompt interaction, not generating or transforming content.
+prompt: |
+  Do not make any changes,
+  until you have 95% confidence
+  that you know what to build
+  ask me follow up questions
+  until you have that confidence
